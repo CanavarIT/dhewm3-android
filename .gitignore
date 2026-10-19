@@ -1,0 +1,40 @@
+# Build
+.cxx/
+.externalNativeBuild/
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.acside/
+*.swp
+*~
+
+# Native / deps (fetched by scripts/fetch_deps.sh — not committed)
+app/src/main/cpp/dhewm3/
+app/src/main/cpp/SDL2/
+app/src/main/cpp/gl4es/
+app/src/main/cpp/openal-soft/
+app/src/main/cpp/lib/
+
+# Game data — NEVER commit commercial assets
+app/src/main/assets/
+**/*.pk4
+**/*.PK4
+**/*.pak
+**/*.dll
+**/*.so
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs / temp
+*.log
+dhewm3log.txt
+captures/

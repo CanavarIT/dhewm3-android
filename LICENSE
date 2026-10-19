@@ -1,0 +1,9 @@
+This repository contains original Android integration code and patches.
+
+- dhewm3: GPLv3 — https://github.com/dhewm/dhewm3
+- SDL2: zlib license — https://github.com/libsdl-org/SDL
+- GL4ES: MIT — https://github.com/ptitSeb/gl4es
+- OpenAL Soft: LGPLv2+ — https://github.com/kcat/openal-soft
+
+Original Doom 3 game data (*.pk4) is NOT included and remains property of
+id Software / Bethesda. You must own a legal copy of Doom 3 to play.
